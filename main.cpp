@@ -3,7 +3,6 @@
 #include <string>
 #include "Service.h"
 #include "AddCar.h"
-
 #include <windows.h>
 
 using namespace std;
@@ -18,9 +17,9 @@ int main(){
             system("cls");
             char ans;
             cout<<"   |     AutoBooklet   |"<<endl;
-            cout<<"   *---------------*\n\n"<<endl;
+            cout<<"   *-------------------*\n\n"<<endl;
             cout<<"[1] : pros8iki oximatos       [2] : service"<<endl;
-            cout<<"[3] : Func 3       [4] : Func 4"<<endl;
+            cout<<"[3] : Func 3                  [4] : Func 4"<<endl;
             cout<<"[5] : Exit\n"<<endl;
             cout<<"->";
             cin>>ans;
