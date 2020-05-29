@@ -2,15 +2,17 @@
 #include <cstdlib>
 #include <string>
 #include "Service.h"
-#include "AddCar.h"
+
 #include <windows.h>
+#include "myaccount.h"
+
 
 using namespace std;
 
 
 int main(){
 
-	AddCar B;
+	MyAccount B;
 	Service y;
 
 	while(1){
@@ -27,11 +29,7 @@ int main(){
             switch(ans){
                 case('1'):
 					system("cls");
-					B.add_plate();
-					B.add_brand();
-					B.add_odo();
-					B.get_ari8mo();
-					B.ShowCarInfo();
+					B.account();
 					break;
                 case('2'):
                 	system("cls");
