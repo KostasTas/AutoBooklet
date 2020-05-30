@@ -30,16 +30,22 @@ int main(){
 
             switch(ans){
                 case('1'):
-					system("cls");
-					B.account();
-					break;
+			system("cls");
+			B.account();
+			break;
                 case('2'):
                 	system("cls");
+<<<<<<< HEAD
 				    y.Select_service();
 					break;
                 case('3'):
                     x.select_category();
                     break;
+=======
+		        y.Select_service();
+			break;
+                case('3'):break;
+>>>>>>> 9ed15e23f4762e6382e7c789c43e61f867a2b73f
                 case('4'):break;
                 case('5'):exit(1);break;
             }
