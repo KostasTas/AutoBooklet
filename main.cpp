@@ -28,13 +28,13 @@ int main(){
 
             switch(ans){
                 case('1'):
-					system("cls");
-					B.account();
-					break;
+			system("cls");
+			B.account();
+			break;
                 case('2'):
                 	system("cls");
-				    y.Select_service();
-					break;
+		        y.Select_service();
+			break;
                 case('3'):break;
                 case('4'):break;
                 case('5'):exit(1);break;
