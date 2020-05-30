@@ -10,7 +10,6 @@ class MyAccount{
 	public:
 		AddCar A;
         void account();
-        char category;
         int x;
         int y;
 };
