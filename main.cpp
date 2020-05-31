@@ -23,15 +23,16 @@ int main(){
             cout<<"   |   AutoBooklet   |"<<endl;
             cout<<"   *-----------------*\n\n"<<endl;
             cout<<"[1] : O logariasmos mou       [2] : Service"<<endl;
-            cout<<"[3] : Online Market           [4] : Func 4"<<endl;
-            cout<<"[5] : Exit\n"<<endl;
+            cout<<"[3] : Online Market           [4] : My car"<<endl;
+            cout<<"[4] : Fuel                    [5] : Service file"<<endl;
+            cout<<"[6] : Exit\n"<<endl;
             cout<<"->";
             cin>>ans;
 
             switch(ans){
                 case('1'):
 					system("cls");
-					B.account();
+					B.Add_car();
 					break;
                 case('2'):
                 	system("cls");
@@ -40,8 +41,10 @@ int main(){
                 case('3'):
                     x.select_category();
                     break;
-                case('4'):break;
-                case('5'):exit(1);break;
+                case('4'):
+                    cout<<"epilexte o logariasmos mou gia na kataxwrisete to oxhma sas";
+                    break;
+                case('6'):exit(1);break;
             }
     }
 

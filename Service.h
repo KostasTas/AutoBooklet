@@ -5,7 +5,8 @@
 
 class Service{
 	public:
-		int x;
-		int y;	
+
+		int programmed_service;
+		int file;
 		void Select_service();
 };

@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <string>
 
+using namespace std;
 
 class MyCar{
 	protected:

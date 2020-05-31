@@ -9,7 +9,7 @@
 class MyAccount{
 	public:
 		AddCar A;
-        void account();
+        void Add_car();
         int x;
-        int y;
+
 };

@@ -3,6 +3,7 @@
 #include <string>
 #include "MyCar.h"
 
+using namespace std;
 
 class AddCar : public MyCar{
 	public:

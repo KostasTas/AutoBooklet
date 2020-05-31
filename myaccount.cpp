@@ -3,7 +3,7 @@
 using namespace std;
 
 
-void MyAccount::account(){
+void MyAccount::Add_car(){
 
         cout<<"[1] : tropopoihsh logariasmoy  [2] : pros8iki oximatos"<<endl;
         cout<<"[3] : Live Chat                [4] : Reminder"<<endl;
@@ -15,7 +15,7 @@ void MyAccount::account(){
         cin>>x;
         switch (x){
             case 1:
-                cout<<"To service einai oloklhromeno!"<<endl;
+                cout<<"Xehasate ton kwdiko sas?"<<endl;
                 break;
             case 2:
                 system("cls");
